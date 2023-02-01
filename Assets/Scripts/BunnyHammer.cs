@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class BunnyHammer : MonoBehaviour
 {
-    [Range(.1f, 4f)]
     [SerializeField]
+    [Range(.1f, 4f)]
     private float m_attackCooldownTimeSeconds = 1f;
 
     private float m_currentCooldownTime = 0f;
@@ -15,19 +15,21 @@ public class BunnyHammer : MonoBehaviour
     {
         if (m_canAttack && UserWantsToAttack())
         {
-            Debug.Log("Hammer Down");
+            Debug.Log("Hammer Down!");
 
             m_canAttack = false;
 
-            m_currentCooldownTime = 0f;
+            m_currentCooldownTime = m_attackCooldownTimeSeconds;
         }
 
         else if (!m_canAttack)
         {
-            m_currentCooldownTime += Time.deltaTime;
+            m_currentCooldownTime -= Time.deltaTime;
 
-            if(m_currentCooldownTime > m_attackCooldownTimeSeconds)
+            if(m_currentCooldownTime <= 0f)
             {
+                Debug.Log("Can Attack again!");
+
                 m_canAttack = true;
             }
         }
