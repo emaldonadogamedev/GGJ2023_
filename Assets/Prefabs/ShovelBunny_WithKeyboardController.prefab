@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5128920690327131770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5359298544643206064}
+  - component: {fileID: 1596859010614465017}
+  m_Layer: 6
+  m_Name: HammerHitCollider
+  m_TagString: HammerHitCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5359298544643206064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128920690327131770}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.004799999, z: 0.0515}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4664831536754970931}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1596859010614465017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128920690327131770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.01, z: 0.04}
+  m_Center: {x: 0, y: 0, z: -0.035}
 --- !u!1001 &5929323750199467590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94,38 +139,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3c95b68e663bc41a525fc854c7c661, type: 3}
---- !u!1 &6811792674461328151 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ba3c95b68e663bc41a525fc854c7c661,
+--- !u!4 &4664831536754970931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1366278540751589237, guid: ba3c95b68e663bc41a525fc854c7c661,
     type: 3}
   m_PrefabInstance: {fileID: 5929323750199467590}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1018902514913014191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6811792674461328151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc14cbc1184ac884c9559fe222c9baf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
---- !u!114 &8589085800356640857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6811792674461328151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c80c2bd5fdde82743951878c65534e6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_attackCooldownTimeSeconds: 1
 --- !u!1 &7014354093935604252 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5539764629200458662, guid: ba3c95b68e663bc41a525fc854c7c661,
@@ -146,7 +165,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!65 &2543353344669401656
 BoxCollider:
@@ -161,3 +180,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.025194706, y: 0.038744193, z: 0.024787428}
   m_Center: {x: -0.000025946481, y: 0.01850866, z: 0.00063640217}
+--- !u!114 &2892442063983394079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014354093935604252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc14cbc1184ac884c9559fe222c9baf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 10
+  m_rigidbody: {fileID: 6789150423931416915}
+--- !u!114 &3824601512163312460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014354093935604252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80c2bd5fdde82743951878c65534e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attackCooldownTimeSeconds: 0
+  m_hammerHitCollider: {fileID: 1596859010614465017}

@@ -77,10 +77,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8513424388201257645, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7235015103121818086, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -344004081357383697, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140499575222096, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95be326cd88fc274bbfb46f4c4be9086,
         type: 3}
       propertyPath: m_Name
       value: AlienBeetle_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_TagString
+      value: Beetle Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564783574603935192, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672548509089925874, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373755574485294491, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562889748348933850, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887587906704532359, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157943139577863650, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95be326cd88fc274bbfb46f4c4be9086, type: 3}
@@ -106,3 +166,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2891617100843045402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728414354562998333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 0.54, z: 1.04}
+  m_Center: {x: 0, y: 0.23, z: 0}
+--- !u!114 &5605503816410691435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728414354562998333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_hitPoints: 1
