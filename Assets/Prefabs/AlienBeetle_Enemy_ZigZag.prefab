@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3306662600790294133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_Name
+      value: AlienBeetle_Enemy_ZigZag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821511588406088717, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4874126678125670354, guid: 9fa0ec0673856ae41b365508aed201c1,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e64137b1db732594a808d3c0e9f6c6ce, type: 3}

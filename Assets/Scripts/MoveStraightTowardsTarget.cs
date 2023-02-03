@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class MoveStraightTowardsTarget : MonoBehaviour
 {
@@ -13,6 +12,11 @@ public class MoveStraightTowardsTarget : MonoBehaviour
     private Vector3 m_direction = new();
 
     private float m_speedTimesDeltaTime;
+
+    public void SetNewTarget(GameObject newTarget)
+    {
+        m_target = newTarget.transform;
+    }
 
     void Update()
     {

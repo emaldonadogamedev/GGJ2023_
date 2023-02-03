@@ -10,6 +10,9 @@ public class EnemyBeetleDamageController : MonoBehaviour, IDamageable
     {
         m_hitPoints -= damage;
 
+        if (m_hitPoints > 0) // still alive!
+            return;
+
         gameObject.SetActive(false);
 
         Destroy(gameObject);

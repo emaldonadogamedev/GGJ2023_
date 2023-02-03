@@ -87,6 +87,12 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 6699446615349125189, guid: bf5129d7e3a040b42bde320cacbf7624,
+        type: 3}
     - target: {fileID: -344004081357383697, guid: 95be326cd88fc274bbfb46f4c4be9086,
         type: 3}
       propertyPath: m_Layer
@@ -179,6 +185,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.82, y: 0.54, z: 1.04}
   m_Center: {x: 0, y: 0.23, z: 0}
+--- !u!114 &2044630957471925496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728414354562998333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7083a0b436f5f48b6a6268a50cdad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 0}
+  m_speed: 2
 --- !u!114 &5605503816410691435
 MonoBehaviour:
   m_ObjectHideFlags: 0
