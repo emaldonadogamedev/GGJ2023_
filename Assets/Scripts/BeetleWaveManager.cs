@@ -57,7 +57,7 @@ public class BeetleWaveManager : MonoBehaviour
                 if (isReadyForNextWave)
                 {
                     m_isWaitingInBetweenWaves = true;
-                    m_timeToWaitInBetweenWaves = Random.Range(3f, 6f);
+                    m_timeToWaitInBetweenWaves = Random.Range(10f, 15f);
 
                     return;
                 }
