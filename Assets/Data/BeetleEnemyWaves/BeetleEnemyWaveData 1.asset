@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1955d317ea034499452cff55776257, type: 3}
+  m_Name: BeetleEnemyWaveData 1
+  m_EditorClassIdentifier: 
+  m_timeBeetleEnemyPairs:
+  - m_timeToWaitBeforeSpawning: 3
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 6
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 3
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 6
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 3
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
