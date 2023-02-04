@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1955d317ea034499452cff55776257, type: 3}
   m_Name: BeetleEnemyWaveData 1
   m_EditorClassIdentifier: 
-  m_timeBeetleEnemyPairs: []
+  m_timeBeetleEnemyPairs:
+  - m_timeToWaitBeforeSpawning: 0
+    m_enemyBeetleToSpawn: {fileID: 0}
+  - m_timeToWaitBeforeSpawning: 0
+    m_enemyBeetleToSpawn: {fileID: 0}
+  - m_timeToWaitBeforeSpawning: 0
+    m_enemyBeetleToSpawn: {fileID: 0}
+  - m_timeToWaitBeforeSpawning: 0
+    m_enemyBeetleToSpawn: {fileID: 0}
+  - m_timeToWaitBeforeSpawning: 0
+    m_enemyBeetleToSpawn: {fileID: 0}
