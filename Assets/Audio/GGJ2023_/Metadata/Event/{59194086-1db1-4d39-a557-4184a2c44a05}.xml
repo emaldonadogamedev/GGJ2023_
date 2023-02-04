@@ -93,10 +93,25 @@
 			<value>0.5</value>
 		</property>
 		<property name="pitch">
+<<<<<<< Updated upstream
 			<value>8.5</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{9a701f28-fc78-462a-be56-220abb5ee9b3}</destination>
+=======
+			<value>1.39999998</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{2819a034-3563-49db-9322-f1c818addaa6}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{441422d6-2701-4ed5-b03a-128982145919}</destination>
+			<destination>{2d994433-4596-4869-b151-89a9f2d073a0}</destination>
+			<destination>{acc71da2-21ad-4e3f-b43e-5ef8282e7f8b}</destination>
+>>>>>>> Stashed changes
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e546ed6d-b251-4789-b84d-661dfa5ce0d8}">
@@ -121,6 +136,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{48b2dd7a-0b2a-423a-914e-e8e16dae9102}" />
 	<object class="MixerBusFader" id="{c5550c11-c4b8-44fa-ace7-94c6bdbfa593}" />
+<<<<<<< Updated upstream
 	<object class="SingleSound" id="{9a701f28-fc78-462a-be56-220abb5ee9b3}">
 		<property name="pitch">
 			<value>0.699999988</value>
@@ -130,6 +146,29 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{0e32e7c2-5847-473c-9b82-d3ee2213af70}</destination>
+=======
+	<object class="RandomizerModulator" id="{2819a034-3563-49db-9322-f1c818addaa6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>17.5</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{441422d6-2701-4ed5-b03a-128982145919}">
+		<relationship name="audioFile">
+			<destination>{9e51520f-2a32-4df5-8f4c-1ad6dda0e6b0}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2d994433-4596-4869-b151-89a9f2d073a0}">
+		<relationship name="audioFile">
+			<destination>{a8dd338a-a034-4971-b37e-31e2c40d6035}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{acc71da2-21ad-4e3f-b43e-5ef8282e7f8b}">
+		<relationship name="audioFile">
+			<destination>{1082b851-8265-43f8-8691-fd59fa344c08}</destination>
+>>>>>>> Stashed changes
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ae02872c-c05d-4100-9e70-6d0161bff3ea}">
@@ -140,6 +179,7 @@
 	<object class="MixerBusPanner" id="{c340c8c0-e8cd-4317-af91-1c57f2058378}" />
 	<object class="MixerBusFader" id="{5a9877f3-4711-46dc-b202-ff744aac5c84}" />
 	<object class="SpatialiserEffect" id="{343484ab-672a-45c5-b573-4d65680842c2}" />
+<<<<<<< Updated upstream
 	<object class="RandomizerModulator" id="{71d91388-f541-4ff8-b446-0125a1ae8392}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
@@ -148,5 +188,7 @@
 			<value>12.5</value>
 		</property>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="MixerBusFader" id="{5712215b-8b7e-4fa5-9cc0-f3e5df8304f2}" />
 </objects>
