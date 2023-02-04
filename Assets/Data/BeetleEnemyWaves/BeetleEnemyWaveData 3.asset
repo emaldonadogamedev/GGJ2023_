@@ -13,23 +13,33 @@ MonoBehaviour:
   m_Name: BeetleEnemyWaveData 3
   m_EditorClassIdentifier: 
   m_timeBeetleEnemyPairs:
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
-  - m_timeToWaitBeforeSpawning: 0
-    m_enemyBeetleToSpawn: {fileID: 0}
+  - m_timeToWaitBeforeSpawning: 2
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 5
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 2
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 5
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 2
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 5
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 2
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 5
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 2
+    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+      type: 3}
+  - m_timeToWaitBeforeSpawning: 5
+    m_enemyBeetleToSpawn: {fileID: 6728414354562998333, guid: e64137b1db732594a808d3c0e9f6c6ce,
+      type: 3}
