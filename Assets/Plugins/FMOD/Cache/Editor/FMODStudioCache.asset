@@ -27,33 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
---- !u!114 &-2618093732538906937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Attack
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Attack
-  Guid:
-    Data1: 1494827142
-    Data2: 1295588785
-    Data3: -2076092507
-    Data4: 88786082
-  Banks:
-  - {fileID: 1541959053212089946}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 500
 --- !u!114 &-532708709882257304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,16 +71,43 @@ MonoBehaviour:
   - {fileID: 1541959053212089946}
   EditorEvents:
   - {fileID: 6603637124500517999}
-  - {fileID: -2618093732538906937}
   - {fileID: -8406333086426780860}
   - {fileID: -532708709882257304}
+  - {fileID: 413449138039853908}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1541959053212089946}
   StringsBanks:
   - {fileID: 4289905829067580561}
-  cacheTime: 638110675677462320
+  cacheTime: 638110698705186727
   cacheVersion: 131601
+--- !u!114 &413449138039853908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack
+  Guid:
+    Data1: 700740963
+    Data2: 1125198420
+    Data3: -1608854102
+    Data4: -1842343840
+  Banks:
+  - {fileID: 1541959053212089946}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &1541959053212089946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,10 +123,10 @@ MonoBehaviour:
   Path: Assets/Audio/GGJ2023_/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638110675677437316
+  lastModified: 638110698705166729
   FileSizes:
   - Name: Desktop
-    Value: 1970752
+    Value: 1986656
   Exists: 1
 --- !u!114 &4289905829067580561
 MonoBehaviour:
@@ -143,7 +143,7 @@ MonoBehaviour:
   Path: Assets/Audio/GGJ2023_/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638110675677462320
+  lastModified: 638110698705186727
   FileSizes:
   - Name: Desktop
     Value: 970
