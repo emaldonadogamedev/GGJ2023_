@@ -1,5 +1,86 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8406333086426780860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: -450234488
+    Data2: 1124421178
+    Data3: -193394503
+    Data4: 434512609
+  Banks:
+  - {fileID: 1541959053212089946}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 250
+--- !u!114 &-2618093732538906937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Attack
+  Guid:
+    Data1: 1494827142
+    Data2: 1295588785
+    Data3: -2076092507
+    Data4: 88786082
+  Banks:
+  - {fileID: 1541959053212089946}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-532708709882257304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemy Defeat
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemy Defeat
+  Guid:
+    Data1: -1804522044
+    Data2: 1340426891
+    Data3: 788371891
+    Data4: -2108723461
+  Banks:
+  - {fileID: 1541959053212089946}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1423
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,12 +98,15 @@ MonoBehaviour:
   - {fileID: 1541959053212089946}
   EditorEvents:
   - {fileID: 6603637124500517999}
+  - {fileID: -2618093732538906937}
+  - {fileID: -8406333086426780860}
+  - {fileID: -532708709882257304}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1541959053212089946}
   StringsBanks:
   - {fileID: 4289905829067580561}
-  cacheTime: 638110579116557384
+  cacheTime: 638110675677462320
   cacheVersion: 131601
 --- !u!114 &1541959053212089946
 MonoBehaviour:
@@ -39,10 +123,10 @@ MonoBehaviour:
   Path: Assets/Audio/GGJ2023_/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638110579116542388
+  lastModified: 638110675677437316
   FileSizes:
   - Name: Desktop
-    Value: 1523136
+    Value: 1970752
   Exists: 1
 --- !u!114 &4289905829067580561
 MonoBehaviour:
@@ -59,10 +143,34 @@ MonoBehaviour:
   Path: Assets/Audio/GGJ2023_/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638110579116557384
+  lastModified: 638110675677462320
   FileSizes:
   - Name: Desktop
-    Value: 770
+    Value: 970
+  Exists: 1
+--- !u!114 &6506797364562708655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game_Track_1.0/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2765746694
+    data2: 3323804706
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &6603637124500517999
 MonoBehaviour:
@@ -87,7 +195,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 6506797364562708655}
   MinDistance: 1
   MaxDistance: 20
-  Length: 113143
+  Length: 150001
