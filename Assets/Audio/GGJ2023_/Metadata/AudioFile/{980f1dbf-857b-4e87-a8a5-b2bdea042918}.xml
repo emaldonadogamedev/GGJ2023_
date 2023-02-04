@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{980f1dbf-857b-4e87-a8a5-b2bdea042918}">
+		<property name="assetPath">
+			<value>Fast_track_1.1MM.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>43.716621315192747</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{851e4b59-ab43-43db-8f09-d7159238c30b}</destination>
+		</relationship>
+	</object>
+</objects>
