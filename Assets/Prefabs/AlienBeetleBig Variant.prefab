@@ -211,4 +211,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_beetleEnemyType: 2
   m_hitPoints: 3

@@ -743,6 +743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeetleWaveManagers
       objectReference: {fileID: 0}
+    - target: {fileID: 930409457853635037, guid: 9163e022fef34574181b0e66b15081be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9163e022fef34574181b0e66b15081be, type: 3}
 --- !u!1 &302106963 stripped

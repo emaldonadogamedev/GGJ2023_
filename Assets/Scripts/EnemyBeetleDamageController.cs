@@ -1,7 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+
+[Serializable]
+public enum BEETLE_ENEMY_TYPE
+{
+    GREEN,
+    RED,
+    BLUE
+}
 
 public class EnemyBeetleDamageController : MonoBehaviour, IDamageable
 {
+    [SerializeField]
+    private BEETLE_ENEMY_TYPE m_beetleEnemyType;
+
     [SerializeField]
     [Min(1)]
     private int m_hitPoints = 1;

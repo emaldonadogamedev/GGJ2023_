@@ -7,6 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2044630957471925496, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605503816410691435, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_hitPoints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605503816410691435, guid: e64137b1db732594a808d3c0e9f6c6ce,
+        type: 3}
+      propertyPath: m_beetleEnemyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6209322148208425607, guid: e64137b1db732594a808d3c0e9f6c6ce,
         type: 3}
       propertyPath: m_RootOrder

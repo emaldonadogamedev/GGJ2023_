@@ -5,19 +5,19 @@ using UnityEngine.Events;
 public class GameplayUImanager : MonoBehaviour
 {
     [SerializeField]
-    private TMPro.TextMeshProUGUI m_timerText;
+    private TextMeshProUGUI m_timerText;
     private float m_currentTime = 0f;
 
     [SerializeField]
-    private TMPro.TextMeshProUGUI m_greenBeetleTextKilled;
+    private TextMeshProUGUI m_greenBeetleTextKilled;
     private int m_greenBeetlesKilled = 0;
 
     [SerializeField]
-    private TMPro.TextMeshProUGUI m_redBeetleTextKilled;
+    private TextMeshProUGUI m_redBeetleTextKilled;
     private int m_redBeetlesKilled = 0;
 
-    public readonly UnityEvent OnGreenBeetleKilled;
-    public readonly UnityEvent OnRedBeetleKilled;
+    public readonly UnityEvent OnGreenBeetleKilled = new();
+    public readonly UnityEvent OnRedBeetleKilled = new();
 
     private void Start()
     {
