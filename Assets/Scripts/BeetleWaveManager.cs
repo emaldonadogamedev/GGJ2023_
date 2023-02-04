@@ -16,7 +16,7 @@ public class BeetleWaveManager : MonoBehaviour
 
     private GameObject m_carrotHouse = null;
 
-    private bool isReadyForNextWave;
+    private bool m_isReadyForNextWave;
 
     private void Start()
     {
@@ -51,10 +51,10 @@ public class BeetleWaveManager : MonoBehaviour
                     m_currentEnemyIndex,
                     m_currentBeetleEnemyWave.m_timeBeetleEnemyPairs);
 
-                isReadyForNextWave =
+                m_isReadyForNextWave =
                     m_currentEnemyIndex + 1 >= m_currentBeetleEnemyWave.m_timeBeetleEnemyPairs.Count;
 
-                if (isReadyForNextWave)
+                if (m_isReadyForNextWave)
                 {
                     m_isWaitingInBetweenWaves = true;
                     m_timeToWaitInBetweenWaves = Random.Range(10f, 15f);

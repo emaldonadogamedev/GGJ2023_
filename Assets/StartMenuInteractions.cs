@@ -3,10 +3,13 @@ using UnityEngine;
 public class StartMenuInteractions : MonoBehaviour
 {
     [SerializeField]
-    public Camera m_titleCamera;
+    private Camera m_titleCamera;
 
     [SerializeField]
-    public Camera m_gameplayCamera;
+    private Camera m_gameplayCamera;
+
+    [SerializeField]
+    private GameObject m_beetleEnemyWaveManager;
 
     public void OnNewGamePressed()
     {
@@ -16,6 +19,8 @@ public class StartMenuInteractions : MonoBehaviour
         Camera.SetupCurrent(m_gameplayCamera);
 
         m_titleCamera.gameObject.SetActive(false);
+
+        m_beetleEnemyWaveManager.SetActive(true);
 
         gameObject.SetActive(false);
     }

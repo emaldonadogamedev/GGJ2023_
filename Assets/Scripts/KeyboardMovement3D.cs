@@ -24,9 +24,9 @@ public class KeyboardMovement3D : MonoBehaviour
 
         m_speedTimesDeltaTime = m_speed * Time.deltaTime;
 
-        m_rigidbody.velocity = m_moveDirection * m_speed;
+        //m_rigidbody.velocity = m_moveDirection * m_speed;
 
-        //transform.position += m_moveDirection * m_speedTimesDeltaTime;
+        transform.position += m_moveDirection * m_speedTimesDeltaTime;
 
         m_isRotationNonZero =
             m_moveDirection.x != 0f || m_moveDirection.z != 0f;
