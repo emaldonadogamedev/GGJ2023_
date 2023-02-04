@@ -11,6 +11,9 @@ public class StartMenuInteractions : MonoBehaviour
     [SerializeField]
     private GameObject m_beetleEnemyWaveManager;
 
+    [SerializeField]
+    private GameObject m_gameplayUI;
+
     public void OnNewGamePressed()
     {
         if(m_titleCamera == null)
@@ -21,6 +24,8 @@ public class StartMenuInteractions : MonoBehaviour
         m_titleCamera.gameObject.SetActive(false);
 
         m_beetleEnemyWaveManager.SetActive(true);
+
+        m_gameplayUI.SetActive(true);
 
         gameObject.SetActive(false);
     }
