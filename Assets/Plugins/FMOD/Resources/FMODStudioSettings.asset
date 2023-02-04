@@ -283,8 +283,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../FMOD Studio/GGJ2023_/GGJ2023_.fspro
-  sourceBankPath: ../../FMOD Studio/GGJ2023_/Build
+  sourceProjectPath: Assets/Audio/GGJ2023_/GGJ2023_.fspro
+  sourceBankPath: Assets/Audio/GGJ2023_/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
