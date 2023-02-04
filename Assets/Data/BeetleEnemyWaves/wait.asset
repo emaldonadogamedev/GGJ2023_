@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce1955d317ea034499452cff55776257, type: 3}
-  m_Name: BeetleEnemyWaveData 4
+  m_Name: wait
   m_EditorClassIdentifier: 
   m_timeBeetleEnemyPairs:
   - m_timeToWaitBeforeSpawning: 10
