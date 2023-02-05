@@ -1,6 +1,5 @@
 using Unity.VisualScripting;
 using UnityEngine;
-using FMODUnity;
 
 [RequireComponent(typeof(KeyboardMovement3D))]
 public class BunnyHammer : MonoBehaviour
@@ -42,7 +41,6 @@ public class BunnyHammer : MonoBehaviour
                 PrepareForNextAttack();
             }
         }
-     
     }
 
     private bool UserWantsToAttack()
