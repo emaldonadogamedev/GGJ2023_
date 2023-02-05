@@ -4655,7 +4655,7 @@ GameObject:
   - component: {fileID: 1180243865}
   - component: {fileID: 1180243864}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: AudioPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4687,7 +4687,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Parameter 1
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
