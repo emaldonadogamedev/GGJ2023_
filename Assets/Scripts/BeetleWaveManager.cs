@@ -98,6 +98,11 @@ public class BeetleWaveManager : MonoBehaviour
         {
             moveStraightTowardsTarget.SetNewTarget(m_carrotHouse);
         }
+        else if(newBeetleEnemy.TryGetComponent(
+            out ZigZagTowardsTarget zigZagTowardsTarget))
+        {
+            zigZagTowardsTarget.SetNewTarget(m_carrotHouse);
+        }
 
     }
 

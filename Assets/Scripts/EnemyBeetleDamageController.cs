@@ -12,6 +12,8 @@ public enum BEETLE_ENEMY_TYPE
 
 public class EnemyBeetleDamageController : MonoBehaviour, IDamageable
 {
+    public BEETLE_ENEMY_TYPE beetleEnemyType => m_beetleEnemyType;
+
     [SerializeField]
     private BEETLE_ENEMY_TYPE m_beetleEnemyType;
 

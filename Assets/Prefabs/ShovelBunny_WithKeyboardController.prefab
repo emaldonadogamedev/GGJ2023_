@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5359298544643206064}
   - component: {fileID: 1596859010614465017}
+  - component: {fileID: 6552048801770570277}
   m_Layer: 6
   m_Name: HammerHitCollider
   m_TagString: HammerHitCollider
@@ -45,6 +46,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04, y: 0.01, z: 0.05}
   m_Center: {x: 0, y: 0, z: -0.02}
+--- !u!114 &6552048801770570277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128920690327131770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d59eac7c6b14341aab864ae25a5d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6481487107022490271
 GameObject:
   m_ObjectHideFlags: 0
