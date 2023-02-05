@@ -43,8 +43,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.01, z: 0.04}
-  m_Center: {x: 0, y: 0, z: -0.035}
+  m_Size: {x: 0.04, y: 0.01, z: 0.05}
+  m_Center: {x: 0, y: 0, z: -0.02}
 --- !u!1 &6481487107022490271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,6 +5018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80c2bd5fdde82743951878c65534e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_attackCooldownTimeSeconds: 0
+  m_attackCooldownTimeSeconds: 0.11
   m_hammerHitCollider: {fileID: 1596859010614465017}
   m_hammerHitVFX: {fileID: 1944322396845302361}

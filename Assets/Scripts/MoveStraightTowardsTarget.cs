@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MoveStraightTowardsTarget : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class MoveStraightTowardsTarget : MonoBehaviour
     private Vector3 m_direction = new();
 
     private float m_speedTimesDeltaTime;
+
+    bool m_isRotationNonZero;
 
     public void SetNewTarget(GameObject newTarget)
     {
@@ -30,6 +33,9 @@ public class MoveStraightTowardsTarget : MonoBehaviour
 
         transform.position += m_direction * m_speedTimesDeltaTime;
 
-        transform.forward = m_direction;
+        m_isRotationNonZero = !Mathf.Approximately(m_direction.sqrMagnitude, 0f);
+
+        if(m_isRotationNonZero)
+            transform.forward = m_direction;
     }
 }
