@@ -12,8 +12,6 @@ public class CarrotDamageController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("COLLISION!");
-
         if(m_leafRigidBodies.Count > 0 &&
             collision.gameObject.CompareTag("Beetle Enemy"))
         {
