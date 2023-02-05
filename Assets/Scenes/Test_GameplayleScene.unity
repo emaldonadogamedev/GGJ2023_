@@ -2247,6 +2247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
   - {fileID: 11400000, guid: 935dd5e907854fd4e83ed67e2f714571, type: 2}
 --- !u!1 &556047836
 GameObject:
