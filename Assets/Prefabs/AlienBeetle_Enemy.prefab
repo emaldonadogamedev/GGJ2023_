@@ -204,20 +204,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_target: {fileID: 0}
   m_speed: 0.8
---- !u!114 &5605503816410691435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6728414354562998333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyType: 0
-  m_hitPoints: 1
 --- !u!114 &3238398992210867993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,3 +234,17 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &5605503816410691435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728414354562998333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyType: 0
+  m_hitPoints: 1
