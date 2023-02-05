@@ -1,11 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CarrotDamageController : MonoBehaviour
 {
     [SerializeField]
-    private List<Rigidbody> m_leafRigidBodies = new List<Rigidbody>();
+    private List<Rigidbody> m_leafRigidBodies = new();
 
     [SerializeField]
     [Range(1f, 100f)]
@@ -13,6 +12,8 @@ public class CarrotDamageController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("COLLISION!");
+
         if(m_leafRigidBodies.Count > 0 &&
             collision.gameObject.CompareTag("Beetle Enemy"))
         {
@@ -21,11 +22,11 @@ public class CarrotDamageController : MonoBehaviour
             m_leafRigidBodies.RemoveAt(randomIndex);
 
             rb.useGravity = true;
-            rb.AddForce(GetRandomForceVector(m_forceIntensity));
+            rb.AddForce(GetRandomForceVector());
         }
     }
 
-    private Vector3 GetRandomForceVector(float intensity)
+    private Vector3 GetRandomForceVector()
     {
         var forceVector = new Vector3(
             Random.Range(0f, 1f),
@@ -34,6 +35,6 @@ public class CarrotDamageController : MonoBehaviour
 
         forceVector.Normalize();
 
-        return forceVector * intensity;
+        return forceVector * m_forceIntensity;
     }
 }
