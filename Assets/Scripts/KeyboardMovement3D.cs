@@ -10,7 +10,7 @@ public class KeyboardMovement3D : MonoBehaviour
     [SerializeField]
     private Rigidbody m_rigidbody;
 
-    private Vector3 m_moveDirection = new(0f,0f,0f);
+    private Vector3 m_moveDirection = new(0f, 0f, 0f);
     private float m_speedTimesDeltaTime = 0f;
 
     private bool m_isRotationNonZero = false;
@@ -36,4 +36,5 @@ public class KeyboardMovement3D : MonoBehaviour
             transform.forward = m_moveDirection;
         }
     }
+
 }

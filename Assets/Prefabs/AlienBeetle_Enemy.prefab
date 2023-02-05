@@ -82,6 +82,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -8114033471809764955, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 674081c5cd2213947b2b14343662c17f, type: 2}
     - target: {fileID: -7235015103121818086, guid: 95be326cd88fc274bbfb46f4c4be9086,
         type: 3}
       propertyPath: m_Layer
@@ -138,6 +143,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5917893844142046307, guid: 95be326cd88fc274bbfb46f4c4be9086,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eca73b0bc59765640bb6ef6644bd8e1b, type: 2}
     - target: {fileID: 6562889748348933850, guid: 95be326cd88fc274bbfb46f4c4be9086,
         type: 3}
       propertyPath: m_Layer
@@ -204,20 +214,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_target: {fileID: 0}
   m_speed: 0.8
---- !u!114 &5605503816410691435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6728414354562998333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyType: 0
-  m_hitPoints: 1
 --- !u!114 &3238398992210867993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,3 +244,17 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &5605503816410691435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728414354562998333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39855812c8f6a7f47a338fb5088348e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyType: 0
+  m_hitPoints: 1
