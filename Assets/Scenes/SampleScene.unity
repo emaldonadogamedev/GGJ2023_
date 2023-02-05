@@ -748,6 +748,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580062391615975328, guid: 9163e022fef34574181b0e66b15081be,
+        type: 3}
+      propertyPath: m_beetleEnemyWavesToChooseFrom.Array.size
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580062391615975328, guid: 9163e022fef34574181b0e66b15081be,
+        type: 3}
+      propertyPath: m_beetleEnemyWavesToChooseFrom.Array.data[18]
+      value: 
+      objectReference: {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb,
+        type: 2}
+    - target: {fileID: 1580062391615975328, guid: 9163e022fef34574181b0e66b15081be,
+        type: 3}
+      propertyPath: m_beetleEnemyWavesToChooseFrom.Array.data[19]
+      value: 
+      objectReference: {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9163e022fef34574181b0e66b15081be, type: 3}
 --- !u!1 &302106963 stripped
