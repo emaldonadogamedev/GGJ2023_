@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &930409456600669599
+--- !u!1 &603845732080089959
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,228 +8,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 930409456600669598}
-  - component: {fileID: 930409456600669569}
+  - component: {fileID: 7577072866747669271}
+  - component: {fileID: 1265020721218817841}
   m_Layer: 0
-  m_Name: BeetleWaveManager
+  m_Name: BeetleWaveManager (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &930409456600669598
+--- !u!4 &7577072866747669271
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409456600669599}
+  m_GameObject: {fileID: 603845732080089959}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.58, y: 0, z: 27.95}
+  m_LocalPosition: {x: 20.35, y: 0, z: -0.8600006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 930409457853635036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409456600669569
+--- !u!114 &1265020721218817841
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409456600669599}
+  m_GameObject: {fileID: 603845732080089959}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
   - {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb, type: 2}
---- !u!1 &930409457417873414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930409457417873417}
-  - component: {fileID: 930409457417873416}
-  m_Layer: 0
-  m_Name: BeetleWaveManager (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930409457417873417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457417873414}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.54, y: 0, z: 14.82}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 930409457853635036}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409457417873416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457417873414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyWavesToChooseFrom:
-  - {fileID: 11400000, guid: dcbe2ccab78dff544b8edfc67200a623, type: 2}
---- !u!1 &930409457436593888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930409457436593891}
-  - component: {fileID: 930409457436593890}
-  m_Layer: 0
-  m_Name: BeetleWaveManager (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930409457436593891
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457436593888}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.92, y: 0, z: 0.59}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 930409457853635036}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409457436593890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457436593888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyWavesToChooseFrom:
-  - {fileID: 11400000, guid: aec152b8cf490c04ab3bb5bba96f223c, type: 2}
---- !u!1 &930409457752230561
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930409457752230560}
-  - component: {fileID: 930409457752230563}
-  m_Layer: 0
-  m_Name: BeetleWaveManager (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930409457752230560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457752230561}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.35, y: 0, z: -0.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 930409457853635036}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409457752230563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457752230561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
   - {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb, type: 2}
---- !u!1 &930409457802550542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 930409457802550641}
-  - component: {fileID: 930409457802550640}
-  m_Layer: 0
-  m_Name: BeetleWaveManager (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &930409457802550641
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457802550542}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.79, y: 0, z: 5.99}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 930409457853635036}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409457802550640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457802550542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_beetleEnemyWavesToChooseFrom:
-  - {fileID: 11400000, guid: aec152b8cf490c04ab3bb5bba96f223c, type: 2}
 --- !u!1 &930409457853635037
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,12 +90,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 930409456600669598}
-  - {fileID: 930409457752230560}
-  - {fileID: 930409457417873417}
-  - {fileID: 930409457952875206}
-  - {fileID: 930409457802550641}
-  - {fileID: 930409457436593891}
+  - {fileID: 7577072866747669271}
+  - {fileID: 1695655372762484820}
+  - {fileID: 4486965020699974382}
+  - {fileID: 1758316790849348635}
+  - {fileID: 9142428778786591793}
+  - {fileID: 8154752134184861232}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -282,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_beetleEnemyWavesToChooseFrom:
   - {fileID: 11400000, guid: 935dd5e907854fd4e83ed67e2f714571, type: 2}
---- !u!1 &930409457952875207
+--- !u!1 &1003808952475119868
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,37 +121,154 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 930409457952875206}
-  - component: {fileID: 930409457952875209}
+  - component: {fileID: 8154752134184861232}
+  - component: {fileID: 4726314694059955186}
   m_Layer: 0
-  m_Name: BeetleWaveManager (3)
+  m_Name: BeetleWaveManager (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &930409457952875206
+--- !u!4 &8154752134184861232
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457952875207}
+  m_GameObject: {fileID: 1003808952475119868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.2, y: 0, z: -0.79}
+  m_LocalPosition: {x: -4.9199996, y: 0, z: 0.59000015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 930409457853635036}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4726314694059955186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003808952475119868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: aec152b8cf490c04ab3bb5bba96f223c, type: 2}
+--- !u!1 &1291343983928725963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1695655372762484820}
+  - component: {fileID: 1580062391615975328}
+  m_Layer: 0
+  m_Name: BeetleWaveManager (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1695655372762484820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291343983928725963}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.58, y: 0, z: 27.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 930409457853635036}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580062391615975328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291343983928725963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 12f2c57b9382277408c26282c41bf9bb, type: 2}
+--- !u!1 &3979279715817368178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758316790849348635}
+  - component: {fileID: 6271055063810082418}
+  m_Layer: 0
+  m_Name: BeetleWaveManager (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1758316790849348635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3979279715817368178}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.2, y: 0, z: -0.7900009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 930409457853635036}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &930409457952875209
+--- !u!114 &6271055063810082418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930409457952875207}
+  m_GameObject: {fileID: 3979279715817368178}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
@@ -328,3 +276,109 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_beetleEnemyWavesToChooseFrom:
   - {fileID: 11400000, guid: f0de4c4788376da468b9fa09f0c5e3d7, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: f0de4c4788376da468b9fa09f0c5e3d7, type: 2}
+--- !u!1 &5424051034501739042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9142428778786591793}
+  - component: {fileID: 7247115411689804355}
+  m_Layer: 0
+  m_Name: BeetleWaveManager (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9142428778786591793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5424051034501739042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.79, y: 0, z: 5.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 930409457853635036}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7247115411689804355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5424051034501739042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: aec152b8cf490c04ab3bb5bba96f223c, type: 2}
+--- !u!1 &8181679747500243764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4486965020699974382}
+  - component: {fileID: 8798972508655318348}
+  m_Layer: 0
+  m_Name: BeetleWaveManager (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4486965020699974382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181679747500243764}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.54, y: 0, z: 14.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 930409457853635036}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8798972508655318348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181679747500243764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90917762c1a874c8035d44d55dda20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_beetleEnemyWavesToChooseFrom:
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: dcbe2ccab78dff544b8edfc67200a623, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: 97b62282f0f581949a6678686c1cfbea, type: 2}
+  - {fileID: 11400000, guid: dcbe2ccab78dff544b8edfc67200a623, type: 2}
