@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_timeBeetleEnemyPairs:
   - m_timeToWaitBeforeSpawning: 10
-    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+    m_enemyBeetleToSpawn: {fileID: 5219289026134242669, guid: 78af496692fafe54eaecfb3e49127ce3,
       type: 3}
   - m_timeToWaitBeforeSpawning: 10
-    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+    m_enemyBeetleToSpawn: {fileID: 5219289026134242669, guid: 78af496692fafe54eaecfb3e49127ce3,
       type: 3}
   - m_timeToWaitBeforeSpawning: 10
-    m_enemyBeetleToSpawn: {fileID: 8107465768388615752, guid: 616290bacbe139044ab268314dbc04aa,
+    m_enemyBeetleToSpawn: {fileID: 5219289026134242669, guid: 78af496692fafe54eaecfb3e49127ce3,
       type: 3}

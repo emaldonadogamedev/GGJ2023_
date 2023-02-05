@@ -6,7 +6,8 @@ public enum BEETLE_ENEMY_TYPE
 {
     GREEN,
     RED,
-    BLUE
+    BLUE,
+    BLACK
 }
 
 public class EnemyBeetleDamageController : MonoBehaviour, IDamageable
